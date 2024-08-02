@@ -147,7 +147,7 @@ const Game = () => {
       return () => clearTimeout(timer);
     } else if (timeLeft === 0 && gameStarted) {
       Swal.fire({
-        title: 'TU PUNTAJE',
+        title: 'PUNTAJE',
         text: `Tu puntaje final es: ${contadorPuntos}`,
         icon: 'success',
         confirmButtonText: 'Reiniciar'
