@@ -76,6 +76,13 @@ span {
     background: transparent;
 }
 
+#start-button {
+    font-size: 2rem;
+    width: 20rem;
+    height: 10rem;
+    margin: 6rem;
+}
+
 @media (max-width: 450px) {
     .header {
         flex-direction: column;

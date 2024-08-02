@@ -16,7 +16,7 @@
 }
 .hero-content {
     flex: 1;
-    text-align: center; /* Asegura que el contenido esté centrado */
+    text-align: center;
 }
 
 .hero-content h2 {
@@ -32,14 +32,14 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 2rem;
-    margin: 0 auto 2rem; /* Agrega margen inferior para separar del contenedor de íconos */
+    margin: 0 auto 2rem;
 }
 
 .tech-icons-container {
     display: flex;
     justify-content: center;
-    gap: 1rem; /* Espacio entre los iconos */
-    flex-wrap: wrap; /* Permite que los iconos se ajusten en pantallas pequeñas */
+    gap: 1rem; 
+    flex-wrap: wrap;
 }
 
 .tech-icon {
@@ -79,9 +79,6 @@
         width: 4rem;
         height: 4rem;
     }
-    /* .tech-icon img {
-        width: 3.5rem;
-    } */
 }
 
 @media (max-width: 768px) {
@@ -124,11 +121,12 @@
         line-height: 1.3rem;
     }
     .tech-icon {
-        width: 3.3rem;
-        height: 3.3rem;
+        width: 2.3rem;
+        height: 2.3rem;
     }
     .tech-icon img {
-        width: 3rem;
+        width: 3.3rem;
+        height: 3.3rem;
         margin: auto;
     }
 }

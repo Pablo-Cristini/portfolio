@@ -39,10 +39,12 @@ const Navbar = () => {
                 </ul>
                     <button className='menu-btn' onClick={toggleMenu}>
                     <span
+                    src={require('../assets/Hmenu.png')}
                     class={"material-symbols-outlined"}
                     style={{fontSize: "1.8rem" }}
                     >
-                        {openMenu ? "close" : "menu"}
+                        {openMenu ? "" : ""}
+                        
                     </span>
                     </button>
                 

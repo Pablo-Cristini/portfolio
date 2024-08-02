@@ -8,7 +8,7 @@ const MobileNav = ({isOpen, toggleMenu}) => {
              onClick={toggleMenu}
         >
             <div className="mobile-menu-container">
-                <img className='logo' src='../../assets/k24.svg' alt='logoH' />
+            <img className='logo' src={require('../../assets/programming.png')} alt='img' />
 
                 <ul>
                     <li>
@@ -21,10 +21,6 @@ const MobileNav = ({isOpen, toggleMenu}) => {
                     <li>
                         <a className='menu-item'>Contact me</a>
                     </li>
-                    <li>
-                        <a className='menu-item'>Little challenge</a>
-                    </li>
-
                     <button className='contact-btn' onClick={() => {}}>Hire Me</button>
                 </ul>
             </div>    
