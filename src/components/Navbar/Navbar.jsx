@@ -7,7 +7,9 @@ const Navbar = () => {
     return(
         <nav className='nav-wrapper'>
             <div className='nav-content'>
-                <img className='logo' src={require('../assets/programming.png')} alt='img' />
+                <Link to=''>
+                    <img className='logo' src={require('../assets/programming.png')} alt='img' />
+                </Link>
                 <ul>
                     <li>
                         <Link className='menu-item' to='/Game'>Desafío</Link>
