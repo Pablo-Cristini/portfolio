@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <section className="hero-container">
             <div className="hero-content">
-                <h2>Aspiring Software Developer</h2>
-                <p>"Welcome to my portfolio! I am Pablo Cristini, currently studying programming and dedicated to growing my expertise in software development."</p>
+                <h2>Portfolio | Pablo Cristini</h2>
+                <p>"¡Bienvenido a mi portafolio! Soy Pablo Cristini, actualmente estudio programación y me dedico a ampliar mis conocimientos en desarrollo de software."</p>
                 <div className="tech-icons-container">
                     <div className="tech-icon">
                         <img src={require('../assets/html.png')} alt="html logo"/> 

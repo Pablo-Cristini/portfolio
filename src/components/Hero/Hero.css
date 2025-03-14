@@ -29,13 +29,14 @@
 
 .hero-content p {
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
     margin: 0 auto 2rem;
 }
 
 .tech-icons-container {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 1rem; 

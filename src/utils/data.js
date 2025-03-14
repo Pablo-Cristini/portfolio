@@ -19,7 +19,7 @@ export const SKILLS = [
         ],
     },
     {
-        title: "Tools",
+        title: "Herramientas",
         icon: require("../components/assets/tools.png"),
         skills: [
             { skill: "GitHub", percentage: "80%" },
@@ -27,11 +27,12 @@ export const SKILLS = [
         ],
     },
     {
-        title: "Soft Skills",
+        title: "Habilidades Interpersonales",
         icon: require("../components/assets/personal.png"),
         skills: [
-            { skill: "Problem-solving", percentage: "90%" },
-            { skill: "Collaboration", percentage: "90%" },
+            { skill: "Resolucion de problemas", percentage: "100%" },
+            { skill: "Trabajo en equipo", percentage: "100%" },
+            { skill: "Aprendizaje", percentage: "100%" },
         ],
     },
 ];

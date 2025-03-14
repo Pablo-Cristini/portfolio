@@ -24,16 +24,16 @@ const ContactForm = () => {
 
         return (
           <form ref={form} onSubmit={sendEmail}>
-              <label htmlFor="user_name" className="name-container">Name</label>
+              <label htmlFor="user_name" className="name-container">Nombre</label>
               <input type="text" id="user_name" name="user_name" required />
               
               <label htmlFor="user_email">Email</label>
               <input type="email" id="user_email" name="user_email" required />
               
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Mensaje</label>
               <textarea id="message" name="message" rows="3" required />
               
-              <input className="button" type="submit" value="Send" />
+              <input className="button" type="submit" value="Enviar" />
           </form>
       );
     }
